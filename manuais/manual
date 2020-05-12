@@ -1,0 +1,86 @@
+Jogo presidente 2020
+
+-Populariedade
+-Forças armadas
+
+-Eleições
+-cargos
+-corrupção ou não
+-Adversidades : doenças, clima
+- Politica Externa: Outros presidentes de outros paises.
+
+nome 
+cargo
+idade
+
+presidente
+vice-presidente
+Ministros: https://pt.wikipedia.org/wiki/Minist%C3%A9rios_do_Brasil 
+01-Agricultura,Pecuária e Abastecimento
+02-Cidadania
+03-Ciência e Tecnologia
+04-Defesa
+05-Desenvolvimento Regional
+06-Economia
+07-Educação
+08-Infraestrutura
+09-Justiça e Segurança Pública
+10-Meio Ambiente
+11-Minas e Energia
+12-Mulher,Família e Direitos Humanos
+13-Relações Exteriores
+14-Saúde
+15-Turismo
+16-Controladoria Geral da União
+17-Secretaria de Governo
+18-Secretaria Geral
+19-Advocacia Geral da União
+20-Banco Central do Brasil
+21-Casa Civil
+22-Gabinete de Segurança Institucional
+
+
+Partidos:DEM, PSL, PSDB, PSL
+
+
+General do Exército
+Marinha
+aeronáutica
+deputados
+senadores
+presidente da camara dos deputados
+presidente do senado
+deputados federais
+deputadoes estaduais
+prefeitos e vice-prefeitos
+governador, vice-governador
+Povo
+cidades
+estados
+pais
+Religião
+
+forma de governo: presidencialista
+Quais são as principais formas de governo?
+Cada Estado pode adotar elementos de mais de um sistema.
+Autocracia. Autoritarismo. Fascismo. Absolutismo. ...
+Democracia. Democracia direta. Demagogia, forma corrompida da Democracia, segundo Aristóteles. Democracia indireta (ou Democracia representativa) ...
+Oligarquia. Aristocracia. Cleptocracia. Gerontocracia. ...
+Teocracia.
+
+poderes: Legislativo, Executivo e Judiciário
+
+Policias: estaduais, federais, bombeiros
+TRibunais de Justiça
+Imprensa
+Impostos: PIS, Cofins,IOF,CIDE,ISS CSLL e ICMS
+
+
+Banco de dados Mysql
+API
+Mobile
+VCL
+
+nomes: Jorge, Eduardo, Rodrigo, Carlos, Frederico, Gustavo, Erasmo, Marcelo, Maurício, Fernando... para sortear nos nomes de governador, prefeito
+sobrenomes: Silva, Abreu, Paiva...
+Tendência do Perfil: Centrão, Esquerda, Direita

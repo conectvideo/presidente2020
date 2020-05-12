@@ -1,0 +1,231 @@
+object Frm_Perfil: TFrm_Perfil
+  Left = 0
+  Top = 0
+  Caption = 'Perfil'
+  ClientHeight = 545
+  ClientWidth = 850
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 504
+    Width = 850
+    Height = 41
+    Align = alBottom
+    TabOrder = 0
+    ExplicitTop = 377
+    ExplicitWidth = 516
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 850
+    Height = 504
+    ActivePage = TabSheet1
+    Align = alClient
+    TabOrder = 1
+    ExplicitWidth = 516
+    ExplicitHeight = 377
+    object TabSheet1: TTabSheet
+      Caption = 'Perfil'
+      ExplicitWidth = 508
+      ExplicitHeight = 349
+      object Label1: TLabel
+        Left = 24
+        Top = 40
+        Width = 27
+        Height = 13
+        Caption = 'Nome'
+      end
+      object Label2: TLabel
+        Left = 24
+        Top = 110
+        Width = 28
+        Height = 13
+        Caption = 'Idade'
+      end
+      object Label3: TLabel
+        Left = 24
+        Top = 72
+        Width = 81
+        Height = 13
+        Caption = 'Data Nasicmento'
+      end
+      object Label4: TLabel
+        Left = 24
+        Top = 144
+        Width = 19
+        Height = 13
+        Caption = 'CPF'
+      end
+      object Label5: TLabel
+        Left = 24
+        Top = 173
+        Width = 14
+        Height = 13
+        Caption = 'RG'
+      end
+      object Label6: TLabel
+        Left = 24
+        Top = 208
+        Width = 14
+        Height = 13
+        Caption = 'Pai'
+      end
+      object Label7: TLabel
+        Left = 24
+        Top = 240
+        Width = 20
+        Height = 13
+        Caption = 'M'#227'e'
+      end
+      object Label8: TLabel
+        Left = 24
+        Top = 272
+        Width = 55
+        Height = 13
+        Caption = 'Estado Civil'
+      end
+      object Label9: TLabel
+        Left = 24
+        Top = 302
+        Width = 28
+        Height = 13
+        Caption = 'E-mail'
+      end
+      object Label10: TLabel
+        Left = 24
+        Top = 334
+        Width = 29
+        Height = 13
+        Caption = 'Cargo'
+      end
+      object Label11: TLabel
+        Left = 24
+        Top = 368
+        Width = 34
+        Height = 13
+        Caption = 'Partido'
+      end
+      object Label12: TLabel
+        Left = 24
+        Top = 408
+        Width = 19
+        Height = 13
+        Caption = 'Pais'
+      end
+      object Edit1: TEdit
+        Left = 111
+        Top = 37
+        Width = 177
+        Height = 21
+        TabOrder = 0
+      end
+      object Edit2: TEdit
+        Left = 111
+        Top = 102
+        Width = 73
+        Height = 21
+        TabOrder = 1
+      end
+      object Edit3: TEdit
+        Left = 111
+        Top = 69
+        Width = 121
+        Height = 21
+        TabOrder = 2
+      end
+      object CheckBox1: TCheckBox
+        Left = 112
+        Top = 271
+        Width = 97
+        Height = 17
+        Caption = 'Casado(a)'
+        TabOrder = 3
+      end
+      object Edit4: TEdit
+        Left = 112
+        Top = 136
+        Width = 121
+        Height = 21
+        TabOrder = 4
+      end
+      object Edit5: TEdit
+        Left = 112
+        Top = 170
+        Width = 121
+        Height = 21
+        TabOrder = 5
+      end
+      object Edit6: TEdit
+        Left = 112
+        Top = 208
+        Width = 176
+        Height = 21
+        TabOrder = 6
+      end
+      object Edit7: TEdit
+        Left = 112
+        Top = 240
+        Width = 176
+        Height = 21
+        TabOrder = 7
+      end
+      object CheckBox2: TCheckBox
+        Left = 224
+        Top = 268
+        Width = 73
+        Height = 17
+        Caption = 'Solteiro(a)'
+        TabOrder = 8
+      end
+      object Edit8: TEdit
+        Left = 111
+        Top = 299
+        Width = 177
+        Height = 21
+        TabOrder = 9
+      end
+      object DBLookupComboBox1: TDBLookupComboBox
+        Left = 111
+        Top = 331
+        Width = 177
+        Height = 21
+        TabOrder = 10
+      end
+      object DBLookupComboBox2: TDBLookupComboBox
+        Left = 112
+        Top = 365
+        Width = 176
+        Height = 21
+        TabOrder = 11
+      end
+      object DBGrid1: TDBGrid
+        Left = 303
+        Top = 37
+        Width = 536
+        Height = 355
+        TabOrder = 12
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'Tahoma'
+        TitleFont.Style = []
+      end
+      object DBLookupComboBox3: TDBLookupComboBox
+        Left = 112
+        Top = 400
+        Width = 176
+        Height = 21
+        TabOrder = 13
+      end
+    end
+  end
+end

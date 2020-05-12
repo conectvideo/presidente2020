@@ -1,0 +1,67 @@
+unit un_Principal;
+
+interface
+
+  uses
+    Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+    System.Classes, Vcl.Graphics,
+    Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, JvExExtCtrls,
+    JvImage, Vcl.ComCtrls, dxGDIPlusClasses,
+
+    un_governardores;
+
+  type
+    TFrm_Principal = class(TForm)
+      MainMenu1: TMainMenu;
+      Jogo1: TMenuItem;
+      novo1: TMenuItem;
+      Carregar1: TMenuItem;
+      FormadeGoverno1: TMenuItem;
+      Presidencialista1: TMenuItem;
+      Cadastros1: TMenuItem;
+      Governadores1: TMenuItem;
+      Prefeitos1: TMenuItem;
+      DeputadosFederais1: TMenuItem;
+      DeputadosEstaduais1: TMenuItem;
+      StatusBar1: TStatusBar;
+      Relatrios1: TMenuItem;
+      Econmicos1: TMenuItem;
+      Populariedade1: TMenuItem;
+      Configuraes1: TMenuItem;
+      Adversidades1: TMenuItem;
+      Cargos1: TMenuItem;
+      Ministrios1: TMenuItem;
+      Partidos1: TMenuItem;
+      Paises1: TMenuItem;
+      Socialista1: TMenuItem;
+      Parlamentarista1: TMenuItem;
+      Monarquia1: TMenuItem;
+      Profisses1: TMenuItem;
+      Bancos1: TMenuItem;
+      BancodeDados1: TMenuItem;
+      procedure Governadores1Click(Sender: TObject);
+    private
+      { Private declarations }
+    public
+      { Public declarations }
+    end;
+
+  var
+    Frm_Principal: TFrm_Principal;
+
+implementation
+
+{$R *.dfm}
+
+  procedure TFrm_Principal.Governadores1Click(Sender: TObject);
+  begin
+    try
+      Application.createform(TFrm_Governadores, Frm_Governadores);
+      Frm_Governadores.ShowModal;
+    finally
+      Frm_Governadores.Release;
+    end;
+
+  end;
+
+end.
